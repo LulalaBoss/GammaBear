@@ -11,6 +11,7 @@ import java.io.IOException;
  {
     private GameView gameView;
 	private GameState gameState;
+	private int newsFlash = 100;
   
    public App()
    {
@@ -41,6 +42,15 @@ import java.io.IOException;
 	   g.drawString("Customers dining: ",50,350);
 	   
 	   // Current status report
+	   if(newsFlash>0)
+	   {
+		   g.drawString("NEWS FLASH!!! " + newsFlash,50,400);
+		   newsFlash=newsFlash-10;
+	   }
+	   else
+	   {
+		   g.drawString("DONE!!",50,450);
+	   }
    } 
     
 }
