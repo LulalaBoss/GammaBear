@@ -2,9 +2,9 @@
  **/
 public class Dish
 {
-	private String name;		
-	private int prepTime;
-	private int quality;
+	public String name;		
+	public int prepTime;
+	public int quality;
 	
 	public Dish(String name, int pTime)
 	{
@@ -12,20 +12,5 @@ public class Dish
         prepTime = pTime;
 		quality = 0;
 	}
-	
-	public String getName()
-	{
-		return name;
-	}
-	
-	public int getPrepTime()
-	{
-		return prepTime;
-	}
-	
-	public int getQuality()
-	{
-		return quality;		
-	}
-	
+		
 }

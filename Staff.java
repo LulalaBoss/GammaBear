@@ -2,13 +2,13 @@
  **/
 public class Staff
 {
-	private String firstName;
-	private String lastName;	
+	public String firstName;
+	public String lastName;	
 	
-	private int serviceExp;
-	private int cookingExp;
+	public int serviceExp;
+	public int cookingExp;
 	
-	private int shift;
+	public int shift;
 	
 	public Staff(String fName, String lName, int shift)
 	{

@@ -14,4 +14,14 @@ public class GameState
 	}
 	
 	// TODO: a constructor for loading a saved game
+	
+	public int getStoreCash()
+	{
+		return store.cash;
+	}
+	
+	public String getStoreName()
+	{
+		return store.name;
+	}
 }

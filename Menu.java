@@ -1,8 +1,8 @@
 public class Menu
 {
-	private String name;
-	private int price;
-	private Dish dish;
+	public String name;
+	public int price;
+	public Dish dish;
 	
 	public Menu(String name, int price, Dish dish)
 	{
